@@ -1,0 +1,66 @@
+.table>:not(caption)>*>* {
+    padding-top: 19px;
+    padding-bottom: 17px;
+    padding-left: 8px;
+}
+
+.table {
+    thead {
+        tr {
+            th {
+                padding-bottom: 0;
+            }
+        }
+    }
+}
+
+.table {
+    tbody {
+        tr {
+            td {
+                &:nth-child(4) {
+                    padding-right: 100px;
+                }
+
+                &:nth-child(5) {
+                    a {
+                        &:nth-child(1) {
+                            padding-right: 25px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.pagination {
+    padding-top: 63px;
+}
+
+.page-item {
+    .page-link {
+        font-size: 16px;
+        line-height: 19px;
+        padding: 8.5px 11.5px;
+        color: #212529;
+
+        &:hover {
+            background-color: #198754;
+            color: #FFFFFF;
+        }
+    }
+
+    &:nth-child(1) a {
+        padding: 4px;
+    }
+
+    &:nth-child(2) a {
+        background-color: #198754;
+        color: #FFFFFF;
+    }
+
+    &:nth-child(5) a {
+        padding: 4px;
+    }
+}

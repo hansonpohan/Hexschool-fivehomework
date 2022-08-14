@@ -5,8 +5,172 @@ engine: ejs
 current: index
 ---
 
-<h1>
-  這是一段話
-</h1>
+<div class="contain">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <div class="navbar-nav d-flex justify-content-between w-100">
+        <div class="d-flex assignment align-items-center">
+          <a class="text-dark" href="#">Assignment</a>
+          <a class="text-dark" href="#">All Courses</a>
+          <a class="text-success" href="#">
+            <span class="material-symbols-outlined">
+              keyboard_arrow_down
+            </span>
+          </a>
+        </div>
+        <div class="d-flex search align-items-center">
+          <a class="text-dark" href="#">
+            <span class="material-symbols-outlined">
+              search
+            </span>
+          </a>
+          <a class="text-dark" href="#">
+            <span class="material-symbols-outlined">
+              notifications_active
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
 
-<div class="box"></div>
+  <div class="main">
+    <div class="d-flex justify-content-between">
+      <p class="d-flex align-items-center font-weight-bold">All (4)
+        <span class="material-symbols-outlined text-success">
+          keyboard_arrow_down
+        </span>
+      </p>
+      <p>2 comments</p>
+    </div>
+
+    <div class="comment d-flex">
+      <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action bg-light" aria-current="true">
+          <div class="chapter">
+            <p>Chapter Assignment 2</p>
+            <h6>Please check this file…</h6>
+          </div>
+          <div class="time">
+            <p>4 hrs ago</p>
+            <p class="text-secondary">Emily Wang</p>
+          </div>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+          <div class="chapter">
+            <p>Chapter Assignment 1</p>
+            <h6>My Homework</h6>
+          </div>
+          <div class="time">
+            <p>12 hrs ago</p>
+            <p class="text-secondary">David Xu</p>
+          </div>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+          <div class="chapter">
+            <p>Final Assignment</p>
+            <h6>Have a problem with this…</h6>
+          </div>
+          <div class="time">
+            <p>18 hrs ago</p>
+            <p class="text-secondary">Tony Wei</p>
+          </div>
+        </a>
+        <a href="#" class="list-group-item list-group-item-action">
+          <div class="chapter">
+            <p>Final Assignment</p>
+            <h6>Did I do it right?</h6>
+          </div>
+          <div class="time">
+            <p>19 hrs ago</p>
+            <p class="text-secondary">Christina Lin</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="card">
+        <div class="card-header d-flex justify-content-between align-items-center">
+          <div class="card-header-content">
+            <p>Chapter Assignment 2 / HTML&CSS</p>
+            <h6>Please check this file for me, thanks!</h6>
+          </div>
+          <a href="#" class="text-dark">
+            <span class="material-symbols-outlined">
+              more_vert
+            </span>
+          </a>
+        </div>
+        <div class="card-body d-flex">
+          <img class="rounded-circle"
+            src="https://github.com/hexschool/2022-web-layout-training/blob/main/week5/emilywang.jpeg?raw=true" alt="">
+          <div class="card-body-content card-body-border">
+            <h6 class="card-title">Emily Wang</h6>
+            <p class="text-secondary">10:38 AM (4 hours ago)</p>
+            <p class="card-text">Hi Teacher, the attached file is my homework of chapter 2. And here comes a question:
+              Why in the following code the height of the <code
+                class="text-success bg-light px-1 rounded-1 font-mono">div</code> is bigger than the height of the <code
+                class="text-success bg-light px-1 rounded-1 font-mono">img</code> ?
+              There is a gap
+              below the image, but it doesn’t seems to be a padding/margin. <br> What is the gap or extra space below
+              image?
+            </p>
+            <a href="#" class="btn btn-light border" download="HW-2-David.zip">HW-2-David.zip</a>
+          </div>
+        </div>
+        <div class="card-body d-flex pt-0">
+          <img class="rounded-circle"
+            src="https://github.com/hexschool/2022-web-layout-training/blob/main/week5/andychen.jpeg?raw=true" alt="">
+          <div class="card-body-content pb-0">
+            <div class="d-flex justify-content-between">
+              <div class="name">
+                <h6 class="card-title">Andy Chen (You)</h6>
+                <p class="text-secondary">13:24 AM (1 hours ago)</p>
+              </div>
+              <div class="edit d-flex">
+                <a href="#" class="text-secondary">
+                  <span class="material-symbols-outlined">
+                    star
+                  </span>
+                </a>
+                <a href="#" class="text-secondary">
+                  <span class="material-symbols-outlined">
+                    edit
+                  </span>
+                </a>
+              </div>
+            </div>
+            <p class="card-text">Hi David, by default, an image is rendered inline, like a letter so it sits on the same
+              line that a, b, c and d sit on. There is space below that line for the descenders you find on letters like
+              g, j, p and q. <br><br> You can: <br><br>　• adjust the <code
+                class="text-success bg-light px-1 rounded-1 font-mono">vertical-align</code> of the image to position it
+              elsewhere
+              (e.g. the
+              <code class="text-success bg-light px-1 rounded-1 font-mono">middle</code>) or <br>　• change the <code
+                class="text-success bg-light px-1 rounded-1 font-mono">display</code>so it isn’t inline.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-between pt-3">
+      <div class="icon-group">
+        <a href="#" class="text-secondary">
+          <span class="material-symbols-outlined">
+            chevron_left
+          </span>
+        </a>
+        <a href="#" class="text-secondary">
+          <span class="material-symbols-outlined">
+            chevron_right
+          </span>
+        </a>
+      </div>
+      <div class="btn-group">
+        <button type="button" class="btn btn-outline-success me-3">Mark as read</button>
+        <button type="button" class="btn btn-success">Reply</button>
+      </div>
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,155 @@
+.navbar {
+    margin-left: 296px;
+    height: 93px;
+    padding: 32px 32px;
+
+    .container-fluid {
+        padding: 0;
+    }
+}
+
+.assignment {
+    a {
+        &:nth-child(1) {
+            font-size: 24px;
+            line-height: 29px;
+            padding-right: 34px;
+        }
+
+        &:nth-child(2) {
+            font-size: 16px;
+            line-height: 19px;
+            padding-right: 9px;
+        }
+    }
+}
+
+.search {
+
+    a {
+        &:nth-child(1) {
+            padding-right: 26px;
+        }
+    }
+}
+
+.main {
+    padding-top: 14px;
+    padding-left: 328px;
+    padding-right: 32px;
+}
+
+.comment {
+    padding-top: 6px;
+}
+
+.list-group {
+    padding-right: 16px;
+}
+
+.list-group-item:first-child {
+    border-radius: 0;
+}
+
+.list-group-item {
+    padding: 12px 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-group-item-action {
+    width: 320px;
+}
+
+.chapter {
+    p {
+        padding-bottom: 4px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    h6 {
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: bold;
+    }
+}
+
+.time {
+    p {
+        font-size: 12px;
+        line-height: 15px;
+
+        &:nth-child(1) {
+            padding-bottom: 8px;
+        }
+    }
+}
+
+.card {
+    width: 584px;
+}
+
+.card-header-content {
+    p {
+        font-size: 12px;
+        line-height: 15px;
+        padding-bottom: 4px;
+    }
+
+    h6 {
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: bold;
+    }
+}
+
+.card-body {
+
+    img {
+        width: 40px;
+        height: 40px;
+        margin-right: 8px;
+    }
+}
+
+
+.card-body-content {
+    padding-right: 16px;
+    padding-bottom: 16px;
+
+    .card-title {
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: bold;
+        margin-bottom: 4px;
+    }
+
+    p:nth-child(2) {
+        font-size: 12px;
+        line-height: 15px;
+        padding-bottom: 16px;
+    }
+
+    p:nth-child(3) {
+        font-size: 14px;
+        line-height: 20px;
+        padding-bottom: 16px;
+    }
+}
+
+.card-body-border {
+    border-bottom: 1px solid #CED4DA;
+}
+
+.edit {
+    a {
+        &:nth-child(2) {
+            padding-left: 24px;
+        }
+    }
+}
+
+.icon-group {
+    padding-left: 330px;
+}

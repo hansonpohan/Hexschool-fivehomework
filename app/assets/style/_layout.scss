@@ -1,0 +1,118 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contain {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.font-mono {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.nav {
+    position: fixed;
+    min-width: 296px;
+    min-height: 100vh;
+}
+
+.logo {
+    padding: 32px 32px;
+    display: block;
+}
+
+.nav-link {
+    padding-left: 32px;
+    padding-bottom: 18px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    position: relative;
+
+    span {
+        padding-right: 16px;
+    }
+
+    &:hover {
+        color: #198754;
+
+        &::before {
+            content: "";
+            position: absolute;
+            left: 0;
+            width: 4px;
+            height: 32px;
+            border-left: 4px solid #198754;
+        }
+    }
+}
+
+.acount {
+    padding: 32px 32px;
+
+    h6 {
+        margin-bottom: 4px;
+
+        p {
+            font-style: 14px;
+        }
+    }
+}
+
+.rounded-circle {
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+}
+
+.modal-header {
+    border: 0;
+    padding: 32px;
+}
+
+.modal-body-contain {
+    padding: 0 32px;
+}
+
+.modal-body {
+    font-size: 20px;
+    line-height: 24px;
+    padding: 0;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.form-label {
+    font-size: 14px;
+    line-height: 17px;
+    padding-bottom: 4px;
+    margin: 0;
+}
+
+.Verified {
+    padding-top: 18px;
+
+    span {
+        padding-right: 10px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 19px;
+        font-weight: bold;
+    }
+
+    time {
+        font-size: 14px;
+        line-height: 17px;
+    }
+}
+
+input {
+    height: 51px;
+}
